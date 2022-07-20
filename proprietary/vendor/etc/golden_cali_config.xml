@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+主供
+rear  camera:hi1336_hs50_txd 同兴达
+front camera:hi556_hs50_txd 同兴达
+depth camera:gc02m1_hs50_ly  联益
+macro camera:gc02m1_hs50_cxt  成像通
+
+二供
+rear  camera:s5k3l6_hs50_ofilm  欧非
+front camera:hi556_hs50_ofilm   欧非
+depth camera:gc2375h_hs50_cxt   成像通
+macro camera:ov02b1b_hs50_ly    联益
+
+三供
+rear  camera:ov13b10_hs50_qt     邱钛
+front camera:gc5035_hs50_jk      金康
+depth camera:ov02b1b_hs50_jk     金康
+macro camera:gc02m1_hs50_jk      金康
+
+四供
+rear  camera:s5k3l6_hs50_sjc    四季春
+front camera:gc5035_hs50_sjc   四季春
+depth camera:gc2375h_hs50_sjc   四季春
+macro camera:gc02m1_hs50_sjc  四季春
+
+五供
+rear  camera:gc13053_hs50_ly    联益
+
+-->
+<Sensors>
+    <!--HS50 code for SR-QL3095-01-491 by chenweibing at 20201103 start-->
+    <Item rear_camera="hi1336_hs50_txd : HQ20207878000"  sub_camera= "gc02m1_hs50_ly : HQ20207879000" filepath="/vendor/lib/dualcali_golden.bin"></Item>
+    <Item rear_camera="s5k3l6_hs50_ofilm : HQ20207869000"  sub_camera= "gc02m1_hs50_ly : HQ20207879000" filepath="/vendor/lib/dualcali_golden_2.bin"></Item>
+    <Item rear_camera="ov13b10_hs50_qt : HQ20207396000"  sub_camera= "gc2375h_hs50_cxt : HQ20207875000" filepath="/vendor/lib/dualcali_golden_3.bin"></Item>
+    <Item rear_camera="ov13b10_hs50_qt : HQ20207396000"  sub_camera= "ov02b1b_hs50_jk : HQ20207899000" filepath="/vendor/lib/dualcali_golden_4.bin"></Item>
+    <Item rear_camera="ov13b10_hs50_qt : HQ20207396000"  sub_camera= "gc02m1_hs50_ly : HQ20207879000" filepath="/vendor/lib/dualcali_golden_5.bin"></Item>
+    <Item rear_camera="gc13053_hs50_ly : HQ20207896000"  sub_camera= "gc02m1_hs50_ly : HQ20207879000" filepath="/vendor/lib/dualcali_golden_6.bin"></Item>
+    <Item rear_camera="hi1336_hs50_txd : HQ20207878000"  sub_camera= "gc2375h_hs50_cxt : HQ20207875000" filepath="/vendor/lib/dualcali_golden_7.bin"></Item>
+    <Item rear_camera="s5k3l6_hs50_sjc : HQ20200013SJC"  sub_camera= "gc2375h_hs50_sjc : HQ20200002SJC" filepath="/vendor/lib/dualcali_golden_8.bin"></Item>
+    <Item rear_camera="s5k3l6_hs50_sjc : HQ20200013SJC"  sub_camera= "ov02b1b_hs50_jk : HQ20207899000" filepath="/vendor/lib/dualcali_golden_9.bin"></Item>
+    <Item rear_camera="gc13053_hs50_ly : HQ20207896000"  sub_camera= "gc2375h_hs50_sjc : HQ20200002SJC" filepath="/vendor/lib/dualcali_golden_10.bin"></Item>
+    <Item rear_camera="hi1336_hs50_txd : HQ20207878000"  sub_camera= "ov02b1b_hs50_jk : HQ20207899000" filepath="/vendor/lib/dualcali_golden_11.bin"></Item>
+    <Item rear_camera="s5k3l6_hs50_sjc : HQ20200013SJC"  sub_camera= "gc02m1_hs50_ly : HQ20207879000" filepath="/vendor/lib/dualcali_golden_12.bin"></Item>
+    <!--HS50 code for by tianran at 20201106 start-->
+    <Item rear_camera="hi1336_hs50_hlt : HQ20207953000"  sub_camera= "ov02b1b_hs50_jk : HQ20207899000" filepath="/vendor/lib/dualcali_golden_13.bin"></Item>
+    <Item rear_camera="gc13053_hs50_ly : HQ20207896000"  sub_camera= "gc2375h_hs50_cxt : HQ20207875000" filepath="/vendor/lib/dualcali_golden_14.bin"></Item>
+    <Item rear_camera="gc13053_hs50_ly : HQ20207896000"  sub_camera= "ov02b1b_hs50_jk : HQ20207899000" filepath="/vendor/lib/dualcali_golden_15.bin"></Item>
+    <Item rear_camera="s5k3l6_hs50_ofilm : HQ20207869000"  sub_camera= "gc2375h_hs50_cxt : HQ20207875000" filepath="/vendor/lib/dualcali_golden_16.bin"></Item>
+    <Item rear_camera="s5k3l6_hs50_ofilm : HQ20207869000"  sub_camera= "ov02b1b_hs50_jk : HQ20207899000" filepath="/vendor/lib/dualcali_golden_17.bin"></Item>
+    <Item rear_camera="s5k3l6_hs50_ofilm : HQ20207869000"  sub_camera= "gc2375h_hs50_sjc : HQ20200002SJC" filepath="/vendor/lib/dualcali_golden_18.bin"></Item>
+    <Item rear_camera="ov13b10_hs50_qt : HQ20207396000"  sub_camera= "gc2375h_hs50_sjc : HQ20200002SJC" filepath="/vendor/lib/dualcali_golden_19.bin"></Item>
+    <Item rear_camera="s5k3l6_hs50_sjc : HQ20200013SJC"  sub_camera= "gc2375h_hs50_cxt : HQ20207875000" filepath="/vendor/lib/dualcali_golden_20.bin"></Item>
+    <Item rear_camera="hi1336_hs50_txd : HQ20207878000"  sub_camera= "gc2375h_hs50_sjc : HQ20200002SJC" filepath="/vendor/lib/dualcali_golden_21.bin"></Item>
+    <!--HS50 code for by tianran at 20201106 end-->
+    <!--HS50 code for HS50-4676 by tianran at 20201231 start-->
+    <Item rear_camera="hi1336_hs50_hlt : HQ20207953000"  sub_camera= "gc02m1_hs50_ly : HQ20207879000" filepath="/vendor/lib/dualcali_golden_22.bin"></Item>
+    <Item rear_camera="hi1336_hs50_hlt : HQ20207953000"  sub_camera= "gc2375h_hs50_sjc : HQ20200002SJC" filepath="/vendor/lib/dualcali_golden_23.bin"></Item>
+    <Item rear_camera="hi1336_hs50_hlt : HQ20207953000"  sub_camera= "gc2375h_hs50_cxt : HQ20207875000" filepath="/vendor/lib/dualcali_golden_24.bin"></Item>
+    <!--HS50 code for HS50-4676 by tianran at 20201231 end-->
+    <!--HS50 code for SR-QL3095-01-491 by chenweibing at 20201103 end-->
+</Sensors>
